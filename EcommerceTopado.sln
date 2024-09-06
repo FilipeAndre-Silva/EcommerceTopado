@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5335C85-9D96-4356-9329-E6056C3FAC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceTopado.Api", "src\EcommerceTopado.Api\EcommerceTopado.Api.csproj", "{93846083-AC4A-41CC-BD66-7D5C652400FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceTopado.Application", "src\EcommerceTopado.Application\EcommerceTopado.Application.csproj", "{590EE80D-4CD8-40B6-834C-A767742044CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceTopado.Domain", "src\EcommerceTopado.Domain\EcommerceTopado.Domain.csproj", "{9CA72C79-9FEF-46A8-8ECA-1C9B5E4E1C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceTopado.Infra", "src\EcommerceTopado.Infra\EcommerceTopado.Infra.csproj", "{63325A6A-BAB5-4526-AD7D-6AA52677F4D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93846083-AC4A-41CC-BD66-7D5C652400FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93846083-AC4A-41CC-BD66-7D5C652400FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93846083-AC4A-41CC-BD66-7D5C652400FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93846083-AC4A-41CC-BD66-7D5C652400FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590EE80D-4CD8-40B6-834C-A767742044CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590EE80D-4CD8-40B6-834C-A767742044CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590EE80D-4CD8-40B6-834C-A767742044CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590EE80D-4CD8-40B6-834C-A767742044CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA72C79-9FEF-46A8-8ECA-1C9B5E4E1C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA72C79-9FEF-46A8-8ECA-1C9B5E4E1C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA72C79-9FEF-46A8-8ECA-1C9B5E4E1C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA72C79-9FEF-46A8-8ECA-1C9B5E4E1C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63325A6A-BAB5-4526-AD7D-6AA52677F4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63325A6A-BAB5-4526-AD7D-6AA52677F4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63325A6A-BAB5-4526-AD7D-6AA52677F4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63325A6A-BAB5-4526-AD7D-6AA52677F4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93846083-AC4A-41CC-BD66-7D5C652400FF} = {D5335C85-9D96-4356-9329-E6056C3FAC5A}
+		{590EE80D-4CD8-40B6-834C-A767742044CA} = {D5335C85-9D96-4356-9329-E6056C3FAC5A}
+		{9CA72C79-9FEF-46A8-8ECA-1C9B5E4E1C3D} = {D5335C85-9D96-4356-9329-E6056C3FAC5A}
+		{63325A6A-BAB5-4526-AD7D-6AA52677F4D8} = {D5335C85-9D96-4356-9329-E6056C3FAC5A}
+	EndGlobalSection
+EndGlobal
